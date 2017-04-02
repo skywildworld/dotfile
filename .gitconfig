@@ -1,3 +1,7 @@
+[user]
+	email = "skywildworld@gmail.com"
+	name = "Ryan Xu"	
+
 [alias]
 	st = status
 	ci = commit
