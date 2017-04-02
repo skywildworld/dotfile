@@ -15,9 +15,11 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+" Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'fatih/vim-go'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'scrooloose/nerdtree'
+
 " git repos on your local machine (i.e. when working on your own plugin)
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
@@ -45,6 +47,7 @@ set tabstop=4
 set shiftwidth=4
 set ruler
 set tags=./tags;
+set autochdir
 set number
 set ls=2
 set hlsearch
