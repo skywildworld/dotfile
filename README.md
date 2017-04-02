@@ -1,2 +1,2 @@
 # dotfile
-regular system configuration files
+Regular system configuration files
